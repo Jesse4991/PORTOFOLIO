@@ -1,0 +1,145 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  overflow-y: auto;
+  background-color: #ffffff;
+
+}
+#Intro{
+  font-size: 100px;
+  color:purple;
+  font-family: cursive;
+}
+h2{
+text-align: center;
+color: rgb(230, 24, 10);
+}
+header {
+background-color:skyblue;
+padding: 10px;
+text-align: center;
+font-size: 35px;
+color: white;
+font-size: 10px;
+}
+
+h1{
+text-align: center;
+background-color: white;
+color:grey;
+margin-left: 300px;
+margin-right: 200px;
+}
+
+nav {
+   max-width:100%;
+   margin: 0 auto;
+   padding: 40px 0;
+   margin-right: 0%;
+   width:100%;
+   text-align: center;
+}
+nav>ul>li{
+    display:inline-block;
+}
+nav>ul>li>a{
+  padding:30px;
+  margin-right:0;
+  text-transform:uppercase;
+  text-decoration:none;
+  display:block;
+  color:rgba(58, 28, 230, 0.979);
+  font-size: 50px;
+}
+nav>ul>li>a:hover{
+  box-shadow:white;
+  background-color:white;
+}
+.column {
+	justify-content: center;
+	float: left;
+	width: 20%;
+	padding: 30px;
+	margin: solid-black;
+  background-color: #ffffff;
+  }
+  .column1{
+  justify-content: center;
+	float: left;
+	width: 900px;
+	padding: 30px;
+	margin: solid-black;
+  background-color: #ffffff;
+  }
+.card {
+  padding: 30px;
+  background-color: white;
+  color: rgb(15, 13, 13);
+}
+  .card1{
+    padding: 30px;
+    background-color: white;
+    color: rgb(189, 15, 15);
+    text-align: center;
+    font-size: 30px;
+
+  }
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+img{
+  display: inline-block;
+  position: relative;
+  width: 800px;
+  height:800px;
+  overflow: hidden;
+  border-radius: 10%;
+}
+.main-container{
+  min-height: 100%;
+
+}
+
+
+.main-footer{
+  width: auto;
+  height:auto;
+  background-color:skyblue ;
+  padding: 20px;
+}
+
+.social-media ul{
+  list-style: none;
+  font-family: Arial;
+  font-size:30px;
+  color: white;
+  margin-left: 50px;
+  padding: 20px;
+
+}
+
+.social-media{
+  font-family: Arial;
+  font-size: 15px;
+  color: white;
+  margin-left: 10px;
+  padding: 10px;
+  text-align: left;
+
+
+}
+.copyright{
+  font-size: 20px;
+  text-align-last: center;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
